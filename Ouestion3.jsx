@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const App = () => {
+const Question3= () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -33,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Question3;
